@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws IOException {
+        File file=new File("task1.txt");
+        Scanner scan=new Scanner(file);
+        int total=0;
+        String s;
+        String[] arr;
+        if(scan.hasNextLine())
+         scan.nextLine();
+        while(scan.hasNextLine())
+        {
+            s=scan.nextLine();
+           arr= s.split(", ");
+           total+= Integer.parseInt(arr[2].trim());
+        }
+        System.out.println("total salary= "+total);
+    }
+}

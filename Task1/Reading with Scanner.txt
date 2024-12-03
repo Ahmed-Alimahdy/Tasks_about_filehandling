@@ -1,0 +1,7 @@
+Objective: Parse and process data from a file using Scanner.
+
+Instructions:
+
+Use Scanner to read a file containing formatted data (e.g., CSV).
+
+Process the data (e.g., calculate the sum of a column) and print the result.

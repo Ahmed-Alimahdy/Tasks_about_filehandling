@@ -1,0 +1,5 @@
+Objective: Write formatted data to a file using PrintWriter.
+
+Instructions:
+
+Use PrintWriter to write formatted text (e.g., tabular data) to a file
